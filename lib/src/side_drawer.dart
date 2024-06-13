@@ -7,6 +7,7 @@ import 'package:flutter/material.dart' hide MenuController;
 
 // final menuScreenKey = GlobalKey(debugLabel: 'MenuScreen');
 typedef MenuItemSelected<T> = Null Function(T);
+
 enum Direction {
   left,
   right,
@@ -491,7 +492,7 @@ class _SideDrawerState<T> extends State<SideDrawer<T>>
   Widget build(BuildContext context) {
     selectorColor = widget.selectorColor ?? Theme.of(context).indicatorColor;
     textStyle = widget.textStyle ??
-        Theme.of(context).textTheme.subtitle1?.copyWith(
+        Theme.of(context).textTheme.titleMedium?.copyWith(
             color: widget.color.computeLuminance() < 0.5
                 ? Colors.white
                 : Colors.black);

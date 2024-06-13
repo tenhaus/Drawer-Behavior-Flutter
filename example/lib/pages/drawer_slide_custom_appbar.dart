@@ -42,14 +42,14 @@ class _DrawerSlideCustomAppBarState extends State<DrawerSlideCustomAppBar> {
                         "John Witch",
                         style: Theme.of(context)
                             .textTheme
-                            .subtitle1
+                            .titleMedium
                             ?.copyWith(color: Colors.white),
                       ),
                       Text(
                         "test123@gmail.com",
                         style: Theme.of(context)
                             .textTheme
-                            .subtitle1
+                            .titleSmall
                             ?.copyWith(color: Colors.white.withAlpha(200)),
                       )
                     ],
