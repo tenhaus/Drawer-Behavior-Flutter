@@ -8,6 +8,15 @@
   "commitConvention": "angular",
   "contributors": [
     {
+      "login": "anjarnaufals",
+      "name": "anjarnaufals",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50995060?v=4",
+      "profile": "https://github.com/anjarnaufals", 
+      "contributions": [
+        "code"
+      ]
+    },
+    {
       "login": "vladaman",
       "name": "Vladimir Vlach",
       "avatar_url": "https://avatars.githubusercontent.com/u/907206?v=4",
